@@ -18,9 +18,6 @@ public class AddBookController {
 
     @RequestMapping(value = "addBook", method = RequestMethod.POST)
     public String addBook(@ModelAttribute("book") Book book, ModelMap model) {
-        model.addAttribute("bookName", book.getBookName());
-        model.addAttribute("author", book.getAuthor());
-        model.addAttribute("price", book.getPrice());
         return "book_added";
     }
 }

@@ -3,8 +3,8 @@
     <title>added a book!</title>
 </head>
 <body>
-    <p>${bookName}</p>
-    <p>${author}</p>
-    <p>${price}</p>
+    <p>${book.bookName}</p>
+    <p>${book.author}</p>
+    <p>${book.price}</p>
 </body>
 </html>
